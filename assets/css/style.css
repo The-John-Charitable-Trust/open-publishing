@@ -7,3 +7,6 @@
 
 /* Tighten newsletter and footer */
 .newsletter{padding:58px 24px}.newsletter h2{margin:12px 0 34px}.newsletter .eyebrow{margin:0 0 10px}.newsletter form{margin-top:0}footer{padding:30px 20px}footer strong{display:block;margin-bottom:10px}footer p{margin:8px 0 14px}footer small{display:block}
+
+/* Compact newsletter-to-footer transition */
+.newsletter{padding-bottom:30px}.newsletter form{margin-bottom:0}.newsletter .consent{margin-bottom:0}.newsletter #formNote{margin:8px 0 0;min-height:0}footer{padding-top:24px}
