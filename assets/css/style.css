@@ -4,3 +4,6 @@
 
 /* Publication card refinement */
 .cover{padding:0;background:transparent;overflow:hidden;display:flex;align-items:flex-start;justify-content:center}.cover img{width:100%;height:100%;object-fit:contain;display:block}.card .meta{margin:8px 0 2px}.card h3{margin:0}.card .author{margin:8px 0 0}.card a,.coming-soon{margin-top:18px;padding-top:0}.coming-soon{color:var(--muted);font-weight:700;font-size:12px;letter-spacing:.08em}
+
+/* Tighten newsletter and footer */
+.newsletter{padding:58px 24px}.newsletter h2{margin:12px 0 34px}.newsletter .eyebrow{margin:0 0 10px}.newsletter form{margin-top:0}footer{padding:30px 20px}footer strong{display:block;margin-bottom:10px}footer p{margin:8px 0 14px}footer small{display:block}
