@@ -29,3 +29,8 @@
 /* Ultra-compact section flow — remove presentation-style whitespace */
 .section{padding:22px 28px}.section .eyebrow{margin:0 0 3px}.section h2{margin:0 0 8px}.mission{padding-top:24px;padding-bottom:8px}.mission>p:last-child{margin:0 auto;line-height:1.35}.video{padding-top:8px;padding-bottom:12px}.video .eyebrow{margin-bottom:2px}.video h2{margin-bottom:10px}.video-wrap{margin-top:10px}.publications{padding-top:12px;padding-bottom:26px}.publications .cards{margin-top:16px}
 @media(max-width:760px){.section{padding:20px}.mission{padding-top:22px;padding-bottom:6px}.video{padding-top:6px;padding-bottom:10px}.publications{padding-top:10px}}
+
+/* Open Publishing Agora hero */
+.hero.hero-banner{min-height:0;padding:0;display:block;background:#10191b;line-height:0;overflow:hidden}
+.hero.hero-banner img{display:block;width:100%;height:auto;margin:0}
+@media(max-width:760px){.hero.hero-banner{min-height:0;padding:0;overflow-x:auto}.hero.hero-banner img{width:auto;max-width:none;height:auto;min-width:100%}}
