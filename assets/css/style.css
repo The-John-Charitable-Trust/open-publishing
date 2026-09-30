@@ -34,3 +34,8 @@
 .hero.hero-banner{min-height:0;padding:0;display:block;background:#10191b;line-height:0;overflow:hidden}
 .hero.hero-banner img{display:block;width:100%;height:auto;margin:0}
 @media(max-width:760px){.hero.hero-banner{min-height:0;padding:0;overflow-x:auto}.hero.hero-banner img{width:auto;max-width:none;height:auto;min-width:100%}}
+
+/* Charitable Trust header and hero identity */
+.site-header{gap:24px}.site-header nav{flex-wrap:wrap;justify-content:flex-end;gap:clamp(12px,2vw,28px)}.site-header .brand{font-size:clamp(12px,1.25vw,17px);flex-shrink:0}
+.hero.hero-banner{position:relative}.hero-identity{position:absolute;left:clamp(20px,4vw,76px);top:clamp(12px,1.7vw,32px);display:flex;align-items:center;gap:clamp(10px,1vw,18px);max-width:48%;line-height:1.2;color:white;text-align:left;text-shadow:0 1px 8px #000;font-weight:750;letter-spacing:.11em;font-size:clamp(12px,1.35vw,23px)}.hero-identity .hero-logo{width:clamp(40px,5vw,86px)!important;height:clamp(40px,5vw,86px)!important;object-fit:contain;flex-shrink:0;display:block}
+@media(max-width:760px){.site-header{height:auto;min-height:82px;flex-wrap:wrap;padding:12px 20px}.site-header nav{gap:12px}.site-header nav a{display:inline;font-size:11px}.hero-identity{left:18px;top:12px;max-width:50%;font-size:11px;gap:7px;letter-spacing:.05em}.hero-identity .hero-logo{width:34px!important;height:34px!important}}
