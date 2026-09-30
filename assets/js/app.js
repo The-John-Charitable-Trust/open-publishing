@@ -8,4 +8,3 @@ function render(q=""){const s=q.toLowerCase();const items=publications.filter(p=
 render();
 document.querySelector("#searchToggle").addEventListener("click",()=>{const p=document.querySelector("#searchPanel");p.hidden=!p.hidden;if(!p.hidden)document.querySelector("#publicationSearch").focus()});
 document.querySelector("#publicationSearch").addEventListener("input",e=>render(e.target.value));
-document.querySelector("#newsletterForm").addEventListener("submit",e=>{e.preventDefault();document.querySelector("#formNote").textContent="Newsletter service connection pending. Your address has not been submitted.";});
