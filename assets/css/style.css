@@ -61,3 +61,27 @@
 /* Final mobile publication sizing: equal cover boxes, no source-dimension growth */
 @media(max-width:760px){.publications .cards{grid-template-columns:1fr!important}.publications .card{box-sizing:border-box!important;width:100%!important;max-width:360px!important;margin:0 auto!important}.publications .cover{box-sizing:border-box!important;width:100%!important;height:auto!important;aspect-ratio:2/3!important;overflow:hidden!important;display:flex!important;align-items:center!important;justify-content:center!important;background:#fff!important}.publications .cover img{display:block!important;width:100%!important;height:100%!important;max-width:100%!important;max-height:100%!important;object-fit:contain!important;object-position:center!important}}
 @media(min-width:761px){.publications .card{min-width:0}.publications .cover{width:100%!important;aspect-ratio:2/3!important;height:auto!important}.publications .cover img{width:100%!important;height:100%!important;object-fit:contain!important}}
+
+
+/* Safari/mobile hero fix: fit complete banner to viewport without horizontal crop */
+@media(max-width:760px){
+  .hero.hero-banner{
+    width:100%;
+    min-height:0;
+    padding:0;
+    overflow:hidden;
+    background:#10191b;
+  }
+  .hero.hero-banner img,
+  .hero.hero-banner>img:first-child{
+    display:block;
+    width:100% !important;
+    max-width:100% !important;
+    min-width:0 !important;
+    height:auto !important;
+    max-height:none !important;
+    object-fit:contain !important;
+    object-position:center top !important;
+    margin:0 !important;
+  }
+}
