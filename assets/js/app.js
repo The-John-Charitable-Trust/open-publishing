@@ -1,6 +1,6 @@
 const publications=[
 {series:"UNIVERSAL MORAL CONCEPTS I",title:"God Father",author:"Cézjah",type:"Novel",keywords:"philosophy morality fiction",cover:"assets/images/covers/god-father.jpg",access_url:null},
-{series:"UNIVERSAL MORAL CONCEPTS II",title:"The Art of Sovereignty",author:"Cézjah",type:"Philosophy",keywords:"morality ethics sovereignty constructivism",cover:"assets/images/covers/the-art-of-sovereignty.jpg",access_url:null},
+{series:"UNIVERSAL MORAL CONCEPTS II",title:"The Art of Sovereignty",author:"Cézjah",type:"Philosophy",keywords:"morality ethics sovereignty constructivism",cover:"assets/images/covers/the-art-of-sovereignty.jpg",access_url:"mailto:cezjah@cezjah.com?subject=Request%20access%3A%20The%20Art%20of%20Sovereignty"},
 {series:"UNIVERSAL MORAL CONCEPTS III",title:"How To Design an Emotion",author:"Cézjah",type:"Psychology · Affective Neuroscience",keywords:"emotion affect feeling psychology neuroscience philosophy",cover:"assets/images/covers/how-to-design-an-emotion.jpg",access_url:"mailto:cezjah@cezjah.com?subject=Request%20access%3A%20How%20to%20Design%20an%20Emotion"}
 ];
 const grid=document.querySelector("#publicationGrid");
